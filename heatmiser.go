@@ -10,6 +10,12 @@ type HeatMiser struct {
   body []byte
 }
 
+func New(baseURL string) *HeatMiser {
+  h := HeatMiser{baseURL: baseURL}
+  h.Perform()
+  return &h
+}
+
 func (h *HeatMiser) Perform() {
   resp, _ := http.Get(h.baseURL + "/right.htm")
   defer resp.Body.Close()
