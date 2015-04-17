@@ -10,7 +10,7 @@ import "github.com/nigelramsay/heatmiser"
 h := HeatMiser{baseURL: "http://192.168.1.7"}
 h.Perform()
 
-fmt.Println("Actual: ", h.Current())
-fmt.Println("Target: ", h.Target())
-fmt.Println("Enabled: ", h.Enabled())
+fmt.Println("Current temperature: ", h.Current())
+fmt.Println("Target temperature: ", h.Target())
+fmt.Println("Heating enabled: ", h.Enabled())
 ```
