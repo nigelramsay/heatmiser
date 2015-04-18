@@ -1,6 +1,9 @@
 # HeatMiser
 
-Golang library for HeatMiser Wifi Thermostat
+[![Build Status](https://travis-ci.org/nigelramsay/heatmiser.svg?branch=master)](https://travis-ci.org/nigelramsay/heatmiser)
+[![GoDoc](https://godoc.org/github.com/nigelramsay/heatmiser?status.svg)](https://godoc.org/github.com/nigelramsay/heatmiser)
+
+Golang library for HeatMiser Wifi Thermostat.
 
 ## Usage
 
